@@ -6,7 +6,7 @@ body {
 #app {
   display: grid;
   grid-template-columns: repeat(auto-fill, 200px);
-  padding: 25px;
+  padding: 25px 20px 100px 110px;
   gap: 25px;
 }
 
@@ -23,7 +23,7 @@ body {
 }
 
 .add-note {
-  height: 100px;
+  height: 200px;
   border: none;
   outline: none;
   background: rgba(0, 0, 0, 0.1);
