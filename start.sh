@@ -5,7 +5,7 @@ Help()
    echo "Script used to start NoTo"
    echo
    echo "Syntax: ./start.sh [-h] [-C] [-F] "
-   echo "options:"
+   echo "Options:"
    echo " -h     Print this Help."
    echo " -C     Open NoTo in Chrome."
    echo " -F     Open NoTo in Firefox."
@@ -18,9 +18,11 @@ while getopts ":hCF:" opt; do
          Help
          exit;;
       C) 
-		   google-chrome-stable index.html;;
+		   google-chrome-stable index.html
+         exit;;
       F) 
-         firefox index.html;;
+         firefox index.html
+         exit;;
      \?) 
          echo "Error: Invalid option"
          Help
