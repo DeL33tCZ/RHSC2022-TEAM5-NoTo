@@ -18,7 +18,7 @@ while getopts ":hCF:" opt; do
          Help
          exit;;
       C) 
-		 google-chrome-stable index.html;;
+		   google-chrome-stable index.html;;
       F) 
          firefox index.html;;
      \?) 
