@@ -1,4 +1,4 @@
-# NoTo - Web Sticky Notes Tool
+# **NoTo - Web Sticky Notes Tool**
 
 This tool is used to make sticky notes in web environment. Don't worry your notes will be saved after creation.
 
@@ -6,7 +6,7 @@ This tool is used to make sticky notes in web environment. Don't worry your note
 
 Use git command in your CLI:
 
- - Linux:
+ - **Linux**:
 
  	```bash
  	git clone https://gitlab.com/dark_eagle/noto
@@ -22,8 +22,8 @@ Usage of this tool is very easy. Use shell script by calling:
 
 to open it in specific web browser or display help.
 
-After loading you can make new notes by clicking on plus symbol, than you can write something in the new note. When you don't need the note anymore, you can double click on it to make it disappear.
+After loading you can make new notes by **clicking on plus symbol**, than you can write something in the new note. When you don't need the note anymore, you can **double click on it to make it disappear**.
 
 ## Authors
 
-TEAM5 of RHSC2022 - Daniel Linduška, Marek Tvrdoň, Erika
+TEAM5 of RHSC2022 - Daniel Linduška, Marek Tvrdoň, Erika Chovancová
