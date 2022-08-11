@@ -44,12 +44,16 @@ body {
     position: absolute;
     width: 300px;
     height: 100%;
-    background: #000;
+    background: rgba(0, 0, 0, 0.7);
     left: -300px;
     transition: .4s;
 }
 #sidebar.active {
     left: 0;
+}
+
+#sidebar ul{
+    padding: 60px 20px;
 }
 
 #sidebar ul li{
@@ -59,10 +63,12 @@ body {
     padding: 20px 24px;
 }
 #sidebar .toggle-btn {
-    position: absolute;
+    position: fixed;
     top: 30px;
-    left: 330px;
+    left: 40px;
+    transition: .4s;
 }
+
 
 .toggle-btn span {
     width: 45px;
@@ -70,4 +76,15 @@ body {
     background: black;
     display: block;
     margin-top: 4px;
+}
+
+#sidebar.active .toggle-btn{
+    top: 32px;
+    
+}
+
+#sidebar.active .toggle-btn{
+
+    transition: .4s;
+    background: white;
 }
