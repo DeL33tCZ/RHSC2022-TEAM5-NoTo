@@ -2,14 +2,13 @@
 
 Help()
 {
-   # Display Help
    echo "Script used to start NoTo"
    echo
-   echo "Syntax: ./start.sh [-h|C|F]"
+   echo "Syntax: ./start.sh [-h] [-C] [-F] "
    echo "options:"
-   echo "h     Print this Help."
-   echo "C     Open NoTo in Chrome."
-   echo "V     Open NoTo in Firefox."
+   echo " -h     Print this Help."
+   echo " -C     Open NoTo in Chrome."
+   echo " -F     Open NoTo in Firefox."
    echo
 }
 
