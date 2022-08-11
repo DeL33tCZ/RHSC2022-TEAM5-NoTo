@@ -68,3 +68,9 @@ function deleteNote(id, element) {
   saveNotes(notes);
   notesContainer.removeChild(element);
 }
+
+
+// menu
+function show(){
+    document.getElementById("sidebar").classList.toggle("active");
+}
