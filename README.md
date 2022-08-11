@@ -27,3 +27,7 @@ After loading you can make new notes by **clicking on plus symbol**, than you ca
 ## Authors
 
 TEAM5 of RHSC2022 - Daniel Linduška, Marek Tvrdoň, Erika Chovancová
+
+## License
+
+See: *LICENSE.txt*
