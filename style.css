@@ -58,9 +58,16 @@ body {
 
 #sidebar ul li{
     list-style: none;
+    font-family: sans-serif;
     color: white;
-    font-size: 20px;
-    padding: 20px 24px;
+    font-size: 25px;
+    padding: 25px 24px;
+    font-weight: 525;
+    letter-spacing: 1px;
+}
+#sidebar ul li:hover{
+    color: orange;
+    transition: .4s;
 }
 #sidebar .toggle-btn {
     position: fixed;
