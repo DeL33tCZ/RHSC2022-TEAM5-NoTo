@@ -1,7 +1,7 @@
 # **NoTo - Web Sticky Notes Tool**
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
-[![Version](https://img.shields.io/badge/version-v0.0.1-blue)]
+![Version](https://img.shields.io/badge/version-v0.0.1-blue)
 
 This tool is used to make sticky notes in web environment. Don't worry your notes will be saved after creation.
 
